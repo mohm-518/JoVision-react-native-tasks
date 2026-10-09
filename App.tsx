@@ -1,11 +1,11 @@
 import React from 'react';
 import {View} from 'react-native';
-import Task24 from './Tasks/Task24';
+import Task25 from './Tasks/Task25';
 
 const App = () => {
   return (
     <View style={{flex: 1}}>
-      <Task24 />
+      <Task25 />
     </View>
   );
 };
