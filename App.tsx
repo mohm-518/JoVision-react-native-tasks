@@ -1,13 +1,13 @@
+
 import React from 'react';
-import {View} from 'react-native';
-import Task38 from './Tasks/Task38';
+import {Provider} from 'react-redux';
+import store from './Redux/store';
+import Task39 from './Tasks/Task39';
 
-const App = () => {
+export default function App() {
   return (
-    <View style={{flex: 1}}>
-      <Task38 />
-    </View>
+    <Provider store={store}>
+      <Task39 />
+    </Provider>
   );
-};
-
-export default App;
+}
